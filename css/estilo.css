@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: url('https://wallpaperaccess.com/full/1204586.jpg');
+    background-repeat: repeat;
+    background-size: auto;
+    background-color: pink;
+    color: whitesmoke;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 250;
+    line-height: 1.65em;
+}
+
+#header {
+    background-color: rgb(247, 48, 131);
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+    min-height: 3vh;
+    border-radius: 15px;
+    margin-left: 0%;
+    margin-right: 0%;
+    justify-content: space-between;
+    padding-inline: 4em 4em 4em 4em;
+}
+
+#header nav {
+    font-size:larger;
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: normal;
+    padding-inline: 4px 4px 4px 4px;
+    justify-content: space-between;
+
+
+}
+
+#home {
+    padding: 4em 4em 2em 4em;
+    background-color: rgb(185, 8, 67);
+    border-radius: 200px;
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 2.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    filter: alpha(opacity=65);
+}
+.container {
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+}
+.img1 {
+    height: 300px;
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-flex;
+}
+
+.img2 {
+    height: 200px;
+    max-width: 80%;
+    align-items: center;
+    display: flex;
+    text-align:center;
+    justify-content: space-evenly;
+    align-content: center;
+
+    
+
+}
+
+#sobremim {
+    padding: 4em 4em 2em 4em;
+    background-color: rgb(185, 8, 67);
+    border-radius: 200px;
+    text-align: center;
+    margin: 3em auto 3em auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#minhatrajetoria{
+    padding: 4em 4em 2em 4em;
+    background-color: rgb(185, 8, 67);
+    border-radius: 200px;
+    text-align: center;
+    margin: auto auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+h5{
+    color: grey;
+}
+.img3 {
+    height: 70%;
+    width: 100%;
+    margin-right: 10px;
+}
+
+#porque {
+    padding: 4em 4em 2em 4em;
+    background-color: rgb(185, 8, 67);
+    border-radius: 200px;
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 2.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#contato{
+    padding: 4em 4em 4em 4em;
+    background-color: rgb(185, 8, 67);
+    border-radius: 200px;
+    text-align: center;
+    margin: 3em auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+a:link {
+    color: beige;
+}
+.rodape {
+    margin: 3em auto 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size:small;
+    color: rgb(255, 223, 233);
+    background-color: rgb(247, 48, 131);
+    min-height: 5vh;
+    border-radius: 15px;
+}
+
+.img1contato {
+    object-fit: contain;
+    filter: alpha(opacity=65);
+    height: 5%;
+    width: 10%;
+    margin-right: 10px;
+}
+
+.img2contato {
+    object-fit: contain;
+    filter: alpha(opacity=65);
+    height: 5%;
+    width: 10%;
+    margin-right: 10px;
+}
+
+.img3contato {
+    object-fit: contain;
+    filter: alpha(opacity=65);
+    height: 5%;
+    width: 10%;
+    margin-right: 10px;
+}
+
+.img4contato {
+    object-fit: contain;
+    filter: alpha(opacity=65);
+    height: 5%;
+    width: 10%;
+    margin-right: 10px;
+}
+
+.imagenscontato {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+@media screen {
+    .container{
+        padding: 0% 0%;
+        display: flex;
+        justify-items: center;
+        text-align: center;
+    }
+}
